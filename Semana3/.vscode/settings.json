@@ -1,0 +1,6 @@
+{
+    "editor.fontSize": 10,
+    "files.associations": {
+        "ostream": "cpp"
+    }
+}
