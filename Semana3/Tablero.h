@@ -5,9 +5,7 @@
 class Tablero
 {
    private:
-        Casilla cas[100];
-
-        
+        Casilla cas[100]; 
 
 };
 

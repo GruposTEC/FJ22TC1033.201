@@ -4,16 +4,21 @@
 class Casilla
 {
  private:
- int numero;
- int cambio;
+int numero;
+int cambio;
 
  public:
+ 
+ Casilla(int n);
+ Casilla(int n, int c); // c es cambio y n es número
+ Casilla();
+ ~Casilla();
  void set_numero(int numero);
  int get_numero();
  void set_cambio(int cambio);
  int get_cambio();
- void cambia_posicion();
+ int cambia_posicion();
 
-
+//no se que estoy haciendo :)
 };
 #endif
