@@ -48,8 +48,15 @@ int Casilla::get_cambio()
    
  }
  
+ /*
  Casilla :: ~Casilla()
  {
    std::cout << "Destruyéndome D:" << endl;
+ }
+*/
+
+ void Casilla::toString()
+ {
+   cout << "Casilla número " << numero << " Y el cambio es: " << cambio << endl;
  }
 

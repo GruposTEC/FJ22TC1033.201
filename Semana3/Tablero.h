@@ -6,6 +6,10 @@ class Tablero
 {
    private:
         Casilla cas[100]; 
+        void leerTablero();
+   public:
+        Tablero();
+        
 
 };
 

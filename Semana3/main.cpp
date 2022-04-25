@@ -1,6 +1,8 @@
 #include <iostream>
 #include "Dado.h"
 #include "Casilla.h"
+#include "Tablero.h"
+#include <sstream>
 
 using std::cout;
 using std::endl;
@@ -14,8 +16,8 @@ int main()
     for(int i=0; i<20; i++){
         cout << dado1.tirar() << endl;
     }
-    */
-
+    
+    /*
     Casilla casilla1(3,20);
     // casilla1.set_numero(3);
     int x = casilla1.get_numero();
@@ -27,9 +29,13 @@ int main()
 
    int z = casilla1.cambia_posicion();
    cout<<"cambio recibido: "<<z<<endl;
+   */
+   Tablero Prueba;
+   
 
 
 
 }
 
-/*oli crayoli :DDDDDDDDDDDDDDD*/
+/*oli crayoli :DDDDDDDDDDDDDDD
+Quien sos?*/

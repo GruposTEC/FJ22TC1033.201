@@ -1,1 +1,1 @@
-main.o: main.cpp Dado.h Casilla.h
+main.o: main.cpp Dado.h Casilla.h Tablero.h
