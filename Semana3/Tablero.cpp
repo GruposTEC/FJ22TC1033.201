@@ -19,7 +19,7 @@ Tablero::Tablero()
 
     for(int i=0; i<100; i++)
     {
-        cas[i].toString();
+        //cas[i].toString();
         //:)
     }
     
@@ -33,17 +33,18 @@ void Tablero::leerTablero()
    if (archivo.is_open()){
        string linea;
        while(getline(archivo,linea)){
-           cout << linea << endl;
+          // //cout << linea << endl;
            stringstream stream(linea);
            //n variable donde se guardac
            string n;
            string c;
            getline(stream,n,',');
            getline(stream,c,',');
-           cout<<n<<endl;
-           cout << c << endl; 
+          // cout<<n<<endl;
+          // cout << c << endl; 
            int num=stoi(n);
            int camb=stoi(c);
+           //para convertir la cadena int
 
            cas[num-1].set_cambio(camb);
 
@@ -54,4 +55,9 @@ void Tablero::leerTablero()
    
    
    archivo.close();
+}
+
+int Tablero::checarCasilla(int casi){
+    return cas[casi].cambia_posicion();
+    
 }

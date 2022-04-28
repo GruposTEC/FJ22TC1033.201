@@ -3,6 +3,7 @@
 #include "Casilla.h"
 #include "Tablero.h"
 #include <sstream>
+#include "Juego.h"
 
 using std::cout;
 using std::endl;
@@ -29,13 +30,16 @@ int main()
 
    int z = casilla1.cambia_posicion();
    cout<<"cambio recibido: "<<z<<endl;
-   */
-   Tablero Prueba;
    
+   Tablero Prueba;
+   */
+
+   
+    Juego juego;
+
+    juego.iniciarJuego();
 
 
 
 }
 
-/*oli crayoli :DDDDDDDDDDDDDDD
-Quien sos?*/

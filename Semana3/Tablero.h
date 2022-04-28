@@ -9,6 +9,8 @@ class Tablero
         void leerTablero();
    public:
         Tablero();
+        int checarCasilla(int casi);
+        
         
 
 };

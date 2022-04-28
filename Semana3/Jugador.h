@@ -1,5 +1,10 @@
 #ifndef JUGADOR_H
 #define JUGADOR_H
+
+#include <string>
+
+using std::string;
+
 class Jugador
 {
     private:
@@ -8,12 +13,14 @@ class Jugador
         string color;
         
     public:
+        Jugador(string nom, int pos, string col);
         void set_nombre(string nombre);
-            get_nombre();
+        string get_nombre();
         void set_posicion(int posicion);
-            int get_posicion();
+        int get_posicion();
         void set_color(string color);
-            string get_color();
+
+        string get_color();
 
 
 
